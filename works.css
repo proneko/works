@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+#bg0 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 1;
+  width: 30%;
+  padding: 70px 100px;
+  z-index: 999;
+}
+#bg0  ul {
+  position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#bg0 ul li {
+  position: relative;
+  list-style: none;
+}
+#bg0 ul li:hover {
+  border-bottom: black solid 1px;
+}
+#bg0 ul li a {
+	position: relative;
+  margin: 0 15px;
+  color: black;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: 500px;
+}
+
+
+#bg-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+.main {
+  position: relative;
+  z-index: 2;
+}
+.main .header_logo {
+  display: flex;
+  width: 100%;
+  padding-top: 90px;
+  padding-left: 140px;
+}
+.main .logo {
+  width: 50px;
+  height: 50px;
+}
+.main .name {
+  margin: 0;
+  font-size: 40px;
+  top: -10px;
+}
+.main h2 {
+  padding: 50px;
+  font-size: 60px;
+  font-weight: 200;
+  text-align: center;
+}
+.main .container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+}
+.main .container img {
+  position: relative;
+  max-width: 60%;
+  max-height: 60%;
+  text-align: center;
+  border: 1px solid #000000;
+  transition: 1s;
+}
+.main .container img:hover {
+  opacity: 0.5;
+}
+.main .text {
+  text-align: center;
+  margin: 30px auto 60px;
+}
+
+
+.footer {
+  padding: 20px 100px;
+}
