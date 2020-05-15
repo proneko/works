@@ -102,5 +102,37 @@ body {
 
 
 .footer {
-  padding: 20px 100px;
+  padding: 20px 0;
+  padding-left: 30px;
+}
+
+
+@media (max-width: 660px) {
+  .main .header_logo {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .main .logo {
+    width: 30px;
+    height: 30px;
+  }
+  .main .name {
+    margin: 0;
+    font-size: 20px;
+    top: -10px;
+  }
+  #bg0 {
+    top: 0;
+    width: 100%;
+    padding: 120px 0 0;
+  }
+  #bg0 ul {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 440px) {
+  #bg0 ul li {
+    font-size: 10px;
+  }
 }
